@@ -1,1 +1,3 @@
-const isEven = (num) => num % 2 === 0;
+const lcm = (a, b) => {
+  return (a * b) / gcd(a, b);
+};
